@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&family=Volkhov&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+  /* font-family: 'Volkhov', serif;*/
+
+body{
+  background-image: url("/Decore.png");
+  background-repeat: no-repeat;
+}
+/* Nav-bar */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo{
+  font-weight: 800;
+  font-size: 35px;
+}
+header .logo span{
+  color: rgb(255, 8, 0);
+}
+.nav-links{
+  padding: 30px;
+  font-weight: 600;
+  color: black;
+}
+.nav-links button{
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 8px;
+}
+.nav-links button:hover{
+  background-color: rgb(255, 8, 0);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+/* Home section */
+.main-content{
+  display: flex;
+  padding: 30px 10px 0 30px;
+}
+.main-text{
+  padding-top: 50px;
+}
+.main-text h3{
+  color: rgb(255, 8, 0);
+}
+.main-text h2{
+  margin: 5px;
+  color: #181E4B;
+  font-size: 64px;
+  font-family: 'Volkhov', serif;
+}
+.main-text p{
+  font-size: 16px;
+  color: #5E6282;
+}
+.main-options{
+display: flex;
+
+}
+.main-options button{
+  background-color: #F1A501;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 25px;
+} 
+.main-options img{
+  cursor: pointer;
+  height: 95px;
+  margin-top: 12px;
+}
+.main-options span {
+  color: #686D77;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section1{
+  padding: 40px 20px 0 30px;
+}
+
+/* Destination Section */
+.destination{
+  margin-top: 50px;
+  text-align: center;
+}
+.destination h4{
+  color: #5E6282;
+  margin-bottom: 2px;
+}
+.destination h2{
+  color: #14183E;
+  font-family: 'Volkhov', serif;
+  margin-top:4px;
+}
+.places{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.card1 img,.card2 img,.card3 img{
+  height:420px;
+  cursor: pointer;
+}
+.card1:hover{
+  transform: scale(1.5px);
+}
+
+
+/* Login Form */
+.form{
+  display: flex;
+  padding: 40px;
+}
+.form-container{
+  margin: 30px;
+  padding: 80px 10px;
+}
+.form-container label{
+  margin: 10px;
+  font-weight: 600;
+  font-size: larger;
+}
+.form-container input{
+  margin: 10px;
+  width: 320px;
+  outline: none;
+  font-weight: 600;
+  border:none;
+  border-bottom: 2px solid #686D77;
+}
+.form-container span{
+  color:red;
+  margin: 20px;
+  cursor: pointer;
+}
+.form-container button{
+  cursor: pointer;
+  margin: 30px 20px;
+  padding: 10px 20px;
+  font-size: medium;
+  color: rgba(0, 0, 0, 0.87);
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color:#fff1da;
+}
