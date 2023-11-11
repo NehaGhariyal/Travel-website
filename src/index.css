@@ -158,3 +158,37 @@ display: flex;
   border-radius: 5px;
   background-color:#fff1da;
 }
+
+
+/* Footer Section */
+footer{
+  padding: 40px 70px;
+}
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-sec-1 h2{
+  font-size: 30px;
+  color: #181E4B;
+}
+.footer-sec-1 p{
+  color: #5E6282;
+}
+.footer-sec-2,.footer-sec-3,.footer-sec-4{
+  text-align: left;
+}
+.sec-heading{
+  font-weight: 800;
+  padding-right:0px;
+}
+li{
+  list-style: none;
+  color: #5E6282;
+}
+.copyright{
+  color: #5E6282;
+ text-align: center;
+ padding-top: 40px;
+}
